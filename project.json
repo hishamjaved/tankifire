@@ -1,0 +1,29 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","extensions"],
+
+    "jsList" : [
+        "src/common/resource.js",
+        "src/common/util.js",
+        "src/conf.js",
+        "src/app.js",
+        "src/scene/mainMenu.js",
+        "src/scene/stage1.js",
+        "src/layer/mainMenu/bg.js",
+        "src/layer/stage1/bg.js",
+        "src/layer/player.js",
+        "src/layer/enemy.js",
+        "src/layer/collision.js",
+        "src/layer/stageMenu.js",
+        "src/animation/explosionAnim.js",
+        "src/animation/helicopterAnim.js"
+    ]
+}
